@@ -1,0 +1,8 @@
+/* odin-bold */
+@font-face {
+	font-family: Odin Rounded;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Odin Bold"), local("Odin-Bold"), url(odin-bold.woff2) format("woff2");
+}
+

@@ -1,0 +1,188 @@
+/** 
+ * CREATED BY MASTERBOOTRECORD32 FOR LOTHRINGER OPENAURORE: https://openaurore.ddns.net/
+**/
+
+/** FONTS IMPORTS */
+
+@import url("/resources/styles/fonts/odin-rounded.css");
+@import url("/resources/styles/fonts/ubuntu.css");
+@import url("/resources/styles/fonts/ubuntu-condensed.css");
+@import url("/resources/styles/fonts/ubuntu-mono.css");
+
+/** STYLES FOR GENERAL ELEMENTS */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url("/resources/images/background_parallel-grid.webp");
+  background-repeat: no-repeat;
+	background-position: center;
+  /**background-color: #252525;*/
+	font-family: Ubuntu;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+/** STYLES FOR TEXT ELEMENTS */
+
+.title1 {
+	margin: 10px 0;
+	font-family: Odin Rounded;
+}
+
+.subtitle {
+	margin: 5px 0;
+	font-family: Ubuntu;
+	font-weight: Lighter;
+}
+
+.title2 {
+	font-family: Odin Rounded;
+}
+
+.paragraph {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/** STYLES FOR GRAPHIC ELEMENTS */
+
+.card-container {
+	background-color: #171717;
+	border: 1px solid #25d6a2;
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+	color: #aaaaaa;
+	padding-top: 30px;
+	position: relative;
+	width: 400px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card-container .profile-picture {
+	border: 1px dashed #25d6a2;
+	border-radius: 50%;
+	padding: 7px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.localization-project {
+	padding-bottom: 20px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;    
+	padding-left: 0;      
+	justify-content: center;     
+	gap: 15px;        
+}
+
+.localization {
+  	display: inline-block;
+}
+
+.project {
+        display: inline-block;
+}
+
+.icon {
+  	display: inline-block;
+  	height: 16px;
+	vertical-align: middle;
+}
+
+button.primary {
+	background-color: #25d6a2;
+	border: 1px solid #25d6a2;
+ 	border-radius: 3px;
+    	color: #231e39;
+    	font-family: Ubuntu, sans-serif;
+    	font-weight: 500;
+    	padding: 10px 25px;
+	transition-duration: 0.4s;
+}
+
+button.primary:hover {
+	background-color: #1aa97e;
+	border: 1px solid #1aa97e;
+}
+
+button.outline {
+    	background-color: transparent;
+    	color: #25d6a2;
+}
+
+button.outline:hover {
+        background-color: #1aa97e;
+	border: 1px solid #1aa97e;
+	color: #231e39;
+}
+
+
+.skills {
+    	background-color: #1a1a1a;
+	border-radius: 20px;
+    	text-align: left;
+    	padding: 15px;
+    	margin-top: 30px;
+}
+
+.skills .skills-unordered-list {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+}
+
+.skills .skills-unordered-list .skills-list-line {
+    	border: 1px solid #25d6a2;
+    	border-radius: 2px;
+    	display: inline-block;
+    	font-size: 12px;
+    	margin: 0 7px 7px 0;
+    	padding: 7px;
+}
+
+.footer-links {
+	padding-bottom: 20px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	justify-content: center;
+	gap: 15px;
+}
+
+.footer-list-line {
+	font-size: 12px;
+	color: #aaaaaa;
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+
+.footer-list-line:hover { 
+        color: #ffffff;
+	text-decoration: underline;
+}
+
+.footer-thanks-link {
+        padding-bottom: 20px;
+}
+
+.thanks-link {
+        font-size: 12px;
+        color: #aaaaaa;
+        text-decoration: none;
+        transition-duration: 0.4s;
+}
+
+.thanks-link:hover {
+        color: #ffffff;
+        text-decoration: underline;
+}
