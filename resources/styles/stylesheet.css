@@ -1,4 +1,5 @@
 /** 
+ * OPENAURORE FRONT SITE STYLESHEET 
  * CREATED BY MASTERBOOTRECORD32 FOR LOTHRINGER OPENAURORE: https://openaurore.ddns.net/
 **/
 
@@ -16,10 +17,10 @@
 }
 
 body {
-  background-image: url("/resources/images/background_parallel-grid.webp");
-  background-repeat: no-repeat;
+        background-image: url("/resources/images/background_distorted-grid.webp");
+        background-repeat: no-repeat;
 	background-position: center;
-  /**background-color: #252525;*/
+        /**background-color: #252525;*/
 	font-family: Ubuntu;
 	display: flex;
 	align-items: center;
@@ -53,20 +54,23 @@ body {
 /** STYLES FOR GRAPHIC ELEMENTS */
 
 .card-container {
-	background-color: #171717;
+	/**background-color: #171717;*/
+	background-color: rgba(8, 41, 32, 0.70);
+	backdrop-filter: blur(5px);
 	border: 1px solid #25d6a2;
 	border-radius: 20px;
 	box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-	color: #aaaaaa;
+	color: #ffffff;
 	padding-top: 30px;
 	position: relative;
 	width: 400px;
-	max-width: 100%;
+	max-width: 95%;
+	max-height: 95%;
 	text-align: center;
 }
 
 .card-container .profile-picture {
-	border: 1px dashed #25d6a2;
+	border: 3px dashed #25d6a2;
 	border-radius: 50%;
 	padding: 7px;
 	max-width: 150px;
@@ -126,11 +130,12 @@ button.outline:hover {
 
 
 .skills {
-    	background-color: #1a1a1a;
+    	/**background: #1a1a1a;*/
+	background-color: rgba(6, 35, 28, 0.50);
 	border-radius: 20px;
-    	text-align: left;
+	text-align: left;
     	padding: 15px;
-    	margin-top: 30px;
+    	margin-top: 15px;
 }
 
 .skills .skills-unordered-list {
@@ -176,13 +181,13 @@ button.outline:hover {
 }
 
 .thanks-link {
-        font-size: 12px;
+	font-size: 12px;
         color: #aaaaaa;
         text-decoration: none;
         transition-duration: 0.4s;
 }
 
 .thanks-link:hover {
-        color: #ffffff;
+	color: #ffffff;
         text-decoration: underline;
 }
