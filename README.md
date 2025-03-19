@@ -12,4 +12,5 @@ THIS WEBSITE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 **THIS PROJECT MAY NOT BE USED FOR THE PURPOSE OF TRAINING OR IMPROVING MACHINE LEARNING ALGORITHMS. PLEASE, READ THE LICENSE'S TERMS.** 
 
 # Screenshot
-![screenshot](https://github.com/user-attachments/assets/a7eb869b-5be1-416d-9add-e35987671462)
+![website](https://github.com/user-attachments/assets/c799fb20-1add-47d4-b19f-34789d70ff6b)
+
